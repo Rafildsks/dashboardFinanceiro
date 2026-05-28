@@ -9,3 +9,6 @@ function ControleFinanceiro() {
 }
 
 ControleFinanceiro();
+
+
+// Crie uma função tabuada() que: Pede um número e mostra na tela a tabuada desse número de 1 a 10. Utilize a manipulação do DOM com getElementById() e innerHTML.

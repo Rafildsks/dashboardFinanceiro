@@ -36,22 +36,23 @@
                     <option value="entrada">Entrada</option>
                     <option value="saida">Saída</option>
                 </select>
-                <button type="submit" class="bg-blue-800 px-10 py-2 rounded-lg text-white hover:bg-blue-500 cursor-pointer hover:scale-105 duration-500">Adicionar</button>
+                <button type="submit"
+                    class="bg-blue-800 px-10 py-2 rounded-lg text-white hover:bg-blue-500 cursor-pointer hover:scale-105 duration-500">Adicionar</button>
             </form>
         </section>
 
         <section>
             <h2>Transações</h2>
-            <table>
-                <thead>
+            <table class="w-full table-auto text-sm text-left">
+                <thead class="bg-gray-50 text-gray-600 font-medium border-b">
                     <tr>
-                        <th>Data</th>
-                        <th>Descrição</th>
-                        <th>Tipo de Transação</th>
-                        <th>Valor</th>
+                        <th class="py-3 px-6">Data</th>
+                        <th class="py-3 px-6">Descrição</th>
+                        <th class="py-3 px-6">Tipo de Transação</th>
+                        <th class="py-3 px-6">Valor</th>
                     </tr>
                 </thead>
-                <tbody></tbody>
+                <tbody id="dados" class="text-gray-600 divide-y"></tbody>
             </table>
         </section>
     </main>
