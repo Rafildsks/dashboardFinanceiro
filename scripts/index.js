@@ -11,10 +11,10 @@
 // confirm() // input
 // console.log() // output
 // Number() conversor em número
-// String() conversor em número
+// String() conversor em Texto
 // parseInt() conversor em inteiro
 // parseFloat() conversor em numeros flutuantes (com decimal)
-// tofixed()
+// tofixed(2) fixa o número de casas decimais
 
 // função sem parâmetro e sem retorno
 function dizerOi() {
@@ -23,7 +23,7 @@ function dizerOi() {
 
 dizerOi();
 
-// função sem parâmetro
+// função com parâmetro
 function soma(num1, num2) {
   let resultado = num1 + num2;
   console.log(resultado);
